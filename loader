@@ -47,14 +47,14 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
 Title.Text = "Solix | Loader"
-Title.TextColor3 = Color3.fromRGB(220, 220, 220)
+Title.TextColor3 = Color3.fromRGB(240, 240, 240)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 24
 Title.Parent = Frame
 
 local titleGradient = Instance.new("UIGradient")
 titleGradient.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(220, 220, 220)),
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 150, 150)),
     ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 0, 0)),
     ColorSequenceKeypoint.new(1, Color3.fromRGB(180, 0, 0)),
 }
@@ -68,7 +68,7 @@ local function createButton(name, position, parent)
     button.BackgroundTransparency = 1
     button.BorderSizePixel = 0
     button.Text = name
-    button.TextColor3 = Color3.fromRGB(220, 220, 220)
+    button.TextColor3 = Color3.fromRGB(255, 255, 255)
     button.Font = Enum.Font.GothamSemibold
     button.TextSize = 22
     button.AutoButtonColor = false
@@ -79,7 +79,7 @@ local function createButton(name, position, parent)
     UICornerBtn.Parent = button
 
     local redGradient = ColorSequence.new{
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 150, 150)),
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 100, 100)),
         ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 0, 0)),
         ColorSequenceKeypoint.new(1, Color3.fromRGB(180, 0, 0)),
     }
