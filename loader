@@ -78,9 +78,9 @@ local function createButton(name, position, parent)
     UICornerBtn.CornerRadius = UDim.new(0, 12)
     UICornerBtn.Parent = button
 
-    local redGradient = ColorSequence.new{
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 100, 100)),
-        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 0, 0)),
+    local near-whiteGradient = ColorSequence.new{
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(240, 240, 240)),
+        ColorSequenceKeypoint.new(0.5, Color3.fromRGB(240, 240, 240)),
         ColorSequenceKeypoint.new(1, Color3.fromRGB(180, 0, 0)),
     }
     local darkGradient = ColorSequence.new{
@@ -93,7 +93,7 @@ local function createButton(name, position, parent)
     buttonBGGradient.Parent = button
 
     local textGradient = Instance.new("UIGradient")
-    textGradient.Color = redGradient
+    textGradient.Color = near-whiteGradient
     textGradient.Parent = button
 
     button.MouseEnter:Connect(function()
