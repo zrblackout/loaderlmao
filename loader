@@ -47,7 +47,7 @@ Title.Size = UDim2.new(1, 0, 0, 40)
 Title.Position = UDim2.new(0, 0, 0, 0)
 Title.BackgroundTransparency = 1
 Title.Text = "Solix | Loader"
-Title.TextColor3 = Color3.fromRGB(192, 0, 25)
+Title.TextColor3 = Color3.fromRGB(220, 220, 220)
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 24
 Title.Parent = Frame
@@ -68,7 +68,7 @@ local function createButton(name, position, parent)
     button.BackgroundTransparency = 1
     button.BorderSizePixel = 0
     button.Text = name
-    button.TextColor3 = Color3.fromRGB(255, 255, 255)
+    button.TextColor3 = Color3.fromRGB(220, 220, 220)
     button.Font = Enum.Font.GothamSemibold
     button.TextSize = 22
     button.AutoButtonColor = false
