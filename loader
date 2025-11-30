@@ -54,7 +54,7 @@ Title.Parent = Frame
 
 local titleGradient = Instance.new("UIGradient")
 titleGradient.Color = ColorSequence.new{
-    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 150, 150)),
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(240, 240, 240)),
     ColorSequenceKeypoint.new(0.5, Color3.fromRGB(255, 0, 0)),
     ColorSequenceKeypoint.new(1, Color3.fromRGB(180, 0, 0)),
 }
